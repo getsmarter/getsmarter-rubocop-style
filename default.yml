@@ -1,0 +1,56 @@
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+
+Style/Encoding:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Style/WordArray:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: aligned
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+Rails/ActiveRecordAliases:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/MethodMissingSuper:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
