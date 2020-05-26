@@ -4,13 +4,13 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
 
-Layout/ArgumentAlignment:
+Layout/AlignArguments:
   EnforcedStyle: with_fixed_indentation
 
-Layout/FirstArrayElementIndentation:
+Layout/IndentFirstArrayElement:
   EnforcedStyle: consistent
 
-Layout/FirstHashElementIndentation:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 Layout/MultilineOperationIndentation:
